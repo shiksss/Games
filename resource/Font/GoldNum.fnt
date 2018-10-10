@@ -1,0 +1,13 @@
+{"file":"GoldNum.png","frames":{
+"0":{"x":16,"y":27,"w":13,"h":13,"offX":0,"offY":2,"sourceW":13,"sourceH":17},
+"1":{"x":64,"y":42,"w":9,"h":14,"offX":2,"offY":1,"sourceW":13,"sourceH":17},
+"2":{"x":40,"y":27,"w":11,"h":14,"offX":1,"offY":1,"sourceW":13,"sourceH":17},
+"3":{"x":52,"y":43,"w":10,"h":14,"offX":1,"offY":1,"sourceW":13,"sourceH":17},
+"4":{"x":1,"y":27,"w":13,"h":16,"offX":0,"offY":0,"sourceW":13,"sourceH":17},
+"5":{"x":27,"y":42,"w":11,"h":15,"offX":1,"offY":1,"sourceW":13,"sourceH":17},
+"6":{"x":14,"y":45,"w":11,"h":16,"offX":1,"offY":0,"sourceW":13,"sourceH":17},
+"7":{"x":53,"y":27,"w":10,"h":13,"offX":1,"offY":2,"sourceW":13,"sourceH":17},
+"8":{"x":40,"y":43,"w":10,"h":15,"offX":1,"offY":1,"sourceW":13,"sourceH":17},
+"9":{"x":1,"y":45,"w":11,"h":17,"offX":1,"offY":0,"sourceW":13,"sourceH":17},
+"层":{"x":97,"y":1,"w":21,"h":24,"offX":0,"offY":0,"sourceW":21,"sourceH":24},
+"速":{"x":1,"y":1,"w":94,"h":24,"offX":0,"offY":0,"sourceW":94,"sourceH":24}}}

@@ -1,0 +1,41 @@
+{
+	"skins": {
+		"eui.Button": "resource/Skin/ButtonSkin.exml",
+		"eui.CheckBox": "resource/Skin/CheckBoxSkin.exml",
+		"eui.HScrollBar": "resource/Skin/HScrollBarSkin.exml",
+		"eui.HSlider": "resource/Skin/HSliderSkin.exml",
+		"eui.Panel": "resource/Skin/PanelSkin.exml",
+		"eui.TextInput": "resource/Skin/TextInputSkin.exml",
+		"eui.ProgressBar": "resource/Skin/ProgressBarSkin.exml",
+		"eui.RadioButton": "resource/Skin/RadioButtonSkin.exml",
+		"eui.Scroller": "resource/Skin/ScrollerSkin.exml",
+		"eui.ToggleSwitch": "resource/Skin/ToggleSwitchSkin.exml",
+		"eui.VScrollBar": "resource/Skin/VScrollBarSkin.exml",
+		"eui.VSlider": "resource/Skin/VSliderSkin.exml",
+		"eui.ItemRenderer": "resource/Skin/ItemRendererSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/Skin/ButtonSkin.exml",
+		"resource/Skin/CheckBoxSkin.exml",
+		"resource/Skin/HScrollBarSkin.exml",
+		"resource/Skin/HSliderSkin.exml",
+		"resource/Skin/ItemRendererSkin.exml",
+		"resource/Skin/PanelSkin.exml",
+		"resource/Skin/ProgressBarSkin.exml",
+		"resource/Skin/ProgressBarSkin_JumpPower.exml",
+		"resource/Skin/ProgressBarSkin_SuperForce.exml",
+		"resource/Skin/RadioButtonSkin.exml",
+		"resource/Skin/ScrollerSkin.exml",
+		"resource/Skin/TextInputSkin.exml",
+		"resource/Skin/ToggleSwitchSkin.exml",
+		"resource/Skin/VScrollBarSkin.exml",
+		"resource/Skin/VSliderSkin.exml",
+		"resource/Skin/UI/LoadingViewUISkin.exml",
+		"resource/Skin/UI/MessageBoxUISkin.exml",
+		"resource/Skin/UI/DayDayUp/RoomController_SoloUISkin.exml",
+		"resource/Skin/UI/DayDayUp/SubScreenMainUISkin.exml",
+		"resource/Skin/UI/Match3/MainMenuUISkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

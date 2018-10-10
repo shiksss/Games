@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ProgressBarSkin_SuperForce" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="40" height="7">
+	<e:Image source="43_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Group left="2" right="0" top="2" bottom="2">
+		<e:Image id="thumb" height="100%" width="100%" source="42_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

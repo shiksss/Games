@@ -1,0 +1,1119 @@
+{
+	"groups": [
+		{
+			"keys": "button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,SFX_Button_Clicked_wav,BGM_Main_wav,BGM_Battlefield_wav",
+			"name": "preload"
+		},
+		{
+			"keys": "0_png,1_png,10_png,100_png,101_png,102_png,103_png,104_png,105_png,106_png,107_png,108_png,109_png,11_png,110_png,111_png,112_png,113_png,114_png,115_png,116_png,117_png,118_png,119_png,12_png,120_png,121_png,122_png,123_png,124_png,125_png,126_png,127_png,128_png,129_png,13_png,130_png,131_png,132_png,133_png,134_png,135_png,136_png,137_png,138_png,139_png,14_png,140_png,141_png,142_png,143_png,144_png,145_png,146_png,147_png,148_png,149_png,15_png,150_png,151_png,152_png,153_png,154_png,155_png,156_png,157_png,158_png,159_png,16_png,160_png,161_png,162_png,163_png,164_png,165_png,166_png,167_png,168_png,169_png,17_png,170_png,171_png,172_png,173_png,174_png,175_png,176_png,177_png,178_png,179_png,18_png,180_png,181_png,182_png,183_png,184_png,185_png,186_png,187_png,188_png,189_png,19_png,190_png,191_png,192_png,193_png,194_png,195_png,196_png,197_png,198_png,199_png,2_png,200_png,201_png,202_png,203_png,204_png,205_png,206_png,207_png,208_png,209_png,210_png,211_png,212_png,213_png,3_png,31_png,32_png,33_png,34_png,35_png,36_png,37_png,38_png,39_png,4_png,40_png,41_png,42_png,43_png,45_png,46_png,47_png,48_png,49_png,5_png,50_png,51_png,52_png,53_png,54_png,55_png,56_png,57_png,58_png,59_png,6_png,60_png,61_png,62_png,63_png,7_png,76_png,77_png,78_png,79_png,8_png,80_png,81_png,82_png,83_png,84_png,85_png,86_png,87_png,88_png,89_png,9_png,90_png,91_png,92_png,93_png,94_png,95_png,96_png,97_png,98_png,99_png,界面_jpg",
+			"name": "Battlefield"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Battlefield/0.png",
+			"type": "image",
+			"name": "0_png"
+		},
+		{
+			"url": "assets/Battlefield/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "assets/Battlefield/10.png",
+			"type": "image",
+			"name": "10_png"
+		},
+		{
+			"url": "assets/Battlefield/100.png",
+			"type": "image",
+			"name": "100_png"
+		},
+		{
+			"url": "assets/Battlefield/101.png",
+			"type": "image",
+			"name": "101_png"
+		},
+		{
+			"url": "assets/Battlefield/102.png",
+			"type": "image",
+			"name": "102_png"
+		},
+		{
+			"url": "assets/Battlefield/103.png",
+			"type": "image",
+			"name": "103_png"
+		},
+		{
+			"url": "assets/Battlefield/104.png",
+			"type": "image",
+			"name": "104_png"
+		},
+		{
+			"url": "assets/Battlefield/105.png",
+			"type": "image",
+			"name": "105_png"
+		},
+		{
+			"url": "assets/Battlefield/106.png",
+			"type": "image",
+			"name": "106_png"
+		},
+		{
+			"url": "assets/Battlefield/107.png",
+			"type": "image",
+			"name": "107_png"
+		},
+		{
+			"url": "assets/Battlefield/108.png",
+			"type": "image",
+			"name": "108_png"
+		},
+		{
+			"url": "assets/Battlefield/109.png",
+			"type": "image",
+			"name": "109_png"
+		},
+		{
+			"url": "assets/Battlefield/11.png",
+			"type": "image",
+			"name": "11_png"
+		},
+		{
+			"url": "assets/Battlefield/110.png",
+			"type": "image",
+			"name": "110_png"
+		},
+		{
+			"url": "assets/Battlefield/111.png",
+			"type": "image",
+			"name": "111_png"
+		},
+		{
+			"url": "assets/Battlefield/112.png",
+			"type": "image",
+			"name": "112_png"
+		},
+		{
+			"url": "assets/Battlefield/113.png",
+			"type": "image",
+			"name": "113_png"
+		},
+		{
+			"url": "assets/Battlefield/114.png",
+			"type": "image",
+			"name": "114_png"
+		},
+		{
+			"url": "assets/Battlefield/115.png",
+			"type": "image",
+			"name": "115_png"
+		},
+		{
+			"url": "assets/Battlefield/116.png",
+			"type": "image",
+			"name": "116_png"
+		},
+		{
+			"url": "assets/Battlefield/117.png",
+			"type": "image",
+			"name": "117_png"
+		},
+		{
+			"url": "assets/Battlefield/118.png",
+			"type": "image",
+			"name": "118_png"
+		},
+		{
+			"url": "assets/Battlefield/119.png",
+			"type": "image",
+			"name": "119_png"
+		},
+		{
+			"url": "assets/Battlefield/12.png",
+			"type": "image",
+			"name": "12_png"
+		},
+		{
+			"url": "assets/Battlefield/120.png",
+			"type": "image",
+			"name": "120_png"
+		},
+		{
+			"url": "assets/Battlefield/121.png",
+			"type": "image",
+			"name": "121_png"
+		},
+		{
+			"url": "assets/Battlefield/122.png",
+			"type": "image",
+			"name": "122_png"
+		},
+		{
+			"url": "assets/Battlefield/123.png",
+			"type": "image",
+			"name": "123_png"
+		},
+		{
+			"url": "assets/Battlefield/124.png",
+			"type": "image",
+			"name": "124_png"
+		},
+		{
+			"url": "assets/Battlefield/125.png",
+			"type": "image",
+			"name": "125_png"
+		},
+		{
+			"url": "assets/Battlefield/126.png",
+			"type": "image",
+			"name": "126_png"
+		},
+		{
+			"url": "assets/Battlefield/127.png",
+			"type": "image",
+			"name": "127_png"
+		},
+		{
+			"url": "assets/Battlefield/128.png",
+			"type": "image",
+			"name": "128_png"
+		},
+		{
+			"url": "assets/Battlefield/129.png",
+			"type": "image",
+			"name": "129_png"
+		},
+		{
+			"url": "assets/Battlefield/13.png",
+			"type": "image",
+			"name": "13_png"
+		},
+		{
+			"url": "assets/Battlefield/130.png",
+			"type": "image",
+			"name": "130_png"
+		},
+		{
+			"url": "assets/Battlefield/131.png",
+			"type": "image",
+			"name": "131_png"
+		},
+		{
+			"url": "assets/Battlefield/132.png",
+			"type": "image",
+			"name": "132_png"
+		},
+		{
+			"url": "assets/Battlefield/133.png",
+			"type": "image",
+			"name": "133_png"
+		},
+		{
+			"url": "assets/Battlefield/134.png",
+			"type": "image",
+			"name": "134_png"
+		},
+		{
+			"url": "assets/Battlefield/135.png",
+			"type": "image",
+			"name": "135_png"
+		},
+		{
+			"url": "assets/Battlefield/136.png",
+			"type": "image",
+			"name": "136_png"
+		},
+		{
+			"url": "assets/Battlefield/137.png",
+			"type": "image",
+			"name": "137_png"
+		},
+		{
+			"url": "assets/Battlefield/138.png",
+			"type": "image",
+			"name": "138_png"
+		},
+		{
+			"url": "assets/Battlefield/139.png",
+			"type": "image",
+			"name": "139_png"
+		},
+		{
+			"url": "assets/Battlefield/14.png",
+			"type": "image",
+			"name": "14_png"
+		},
+		{
+			"url": "assets/Battlefield/140.png",
+			"type": "image",
+			"name": "140_png"
+		},
+		{
+			"url": "assets/Battlefield/141.png",
+			"type": "image",
+			"name": "141_png"
+		},
+		{
+			"url": "assets/Battlefield/142.png",
+			"type": "image",
+			"name": "142_png"
+		},
+		{
+			"url": "assets/Battlefield/143.png",
+			"type": "image",
+			"name": "143_png"
+		},
+		{
+			"url": "assets/Battlefield/144.png",
+			"type": "image",
+			"name": "144_png"
+		},
+		{
+			"url": "assets/Battlefield/145.png",
+			"type": "image",
+			"name": "145_png"
+		},
+		{
+			"url": "assets/Battlefield/146.png",
+			"type": "image",
+			"name": "146_png"
+		},
+		{
+			"url": "assets/Battlefield/147.png",
+			"type": "image",
+			"name": "147_png"
+		},
+		{
+			"url": "assets/Battlefield/148.png",
+			"type": "image",
+			"name": "148_png"
+		},
+		{
+			"url": "assets/Battlefield/149.png",
+			"type": "image",
+			"name": "149_png"
+		},
+		{
+			"url": "assets/Battlefield/15.png",
+			"type": "image",
+			"name": "15_png"
+		},
+		{
+			"url": "assets/Battlefield/150.png",
+			"type": "image",
+			"name": "150_png"
+		},
+		{
+			"url": "assets/Battlefield/151.png",
+			"type": "image",
+			"name": "151_png"
+		},
+		{
+			"url": "assets/Battlefield/152.png",
+			"type": "image",
+			"name": "152_png"
+		},
+		{
+			"url": "assets/Battlefield/153.png",
+			"type": "image",
+			"name": "153_png"
+		},
+		{
+			"url": "assets/Battlefield/154.png",
+			"type": "image",
+			"name": "154_png"
+		},
+		{
+			"url": "assets/Battlefield/155.png",
+			"type": "image",
+			"name": "155_png"
+		},
+		{
+			"url": "assets/Battlefield/156.png",
+			"type": "image",
+			"name": "156_png"
+		},
+		{
+			"url": "assets/Battlefield/157.png",
+			"type": "image",
+			"name": "157_png"
+		},
+		{
+			"url": "assets/Battlefield/158.png",
+			"type": "image",
+			"name": "158_png"
+		},
+		{
+			"url": "assets/Battlefield/159.png",
+			"type": "image",
+			"name": "159_png"
+		},
+		{
+			"url": "assets/Battlefield/16.png",
+			"type": "image",
+			"name": "16_png"
+		},
+		{
+			"url": "assets/Battlefield/160.png",
+			"type": "image",
+			"name": "160_png"
+		},
+		{
+			"url": "assets/Battlefield/161.png",
+			"type": "image",
+			"name": "161_png"
+		},
+		{
+			"url": "assets/Battlefield/162.png",
+			"type": "image",
+			"name": "162_png"
+		},
+		{
+			"url": "assets/Battlefield/163.png",
+			"type": "image",
+			"name": "163_png"
+		},
+		{
+			"url": "assets/Battlefield/164.png",
+			"type": "image",
+			"name": "164_png"
+		},
+		{
+			"url": "assets/Battlefield/165.png",
+			"type": "image",
+			"name": "165_png"
+		},
+		{
+			"url": "assets/Battlefield/166.png",
+			"type": "image",
+			"name": "166_png"
+		},
+		{
+			"url": "assets/Battlefield/167.png",
+			"type": "image",
+			"name": "167_png"
+		},
+		{
+			"url": "assets/Battlefield/168.png",
+			"type": "image",
+			"name": "168_png"
+		},
+		{
+			"url": "assets/Battlefield/169.png",
+			"type": "image",
+			"name": "169_png"
+		},
+		{
+			"url": "assets/Battlefield/17.png",
+			"type": "image",
+			"name": "17_png"
+		},
+		{
+			"url": "assets/Battlefield/170.png",
+			"type": "image",
+			"name": "170_png"
+		},
+		{
+			"url": "assets/Battlefield/171.png",
+			"type": "image",
+			"name": "171_png"
+		},
+		{
+			"url": "assets/Battlefield/172.png",
+			"type": "image",
+			"name": "172_png"
+		},
+		{
+			"url": "assets/Battlefield/173.png",
+			"type": "image",
+			"name": "173_png"
+		},
+		{
+			"url": "assets/Battlefield/174.png",
+			"type": "image",
+			"name": "174_png"
+		},
+		{
+			"url": "assets/Battlefield/175.png",
+			"type": "image",
+			"name": "175_png"
+		},
+		{
+			"url": "assets/Battlefield/176.png",
+			"type": "image",
+			"name": "176_png"
+		},
+		{
+			"url": "assets/Battlefield/177.png",
+			"type": "image",
+			"name": "177_png"
+		},
+		{
+			"url": "assets/Battlefield/178.png",
+			"type": "image",
+			"name": "178_png"
+		},
+		{
+			"url": "assets/Battlefield/179.png",
+			"type": "image",
+			"name": "179_png"
+		},
+		{
+			"url": "assets/Battlefield/18.png",
+			"type": "image",
+			"name": "18_png"
+		},
+		{
+			"url": "assets/Battlefield/180.png",
+			"type": "image",
+			"name": "180_png"
+		},
+		{
+			"url": "assets/Battlefield/181.png",
+			"type": "image",
+			"name": "181_png"
+		},
+		{
+			"url": "assets/Battlefield/182.png",
+			"type": "image",
+			"name": "182_png"
+		},
+		{
+			"url": "assets/Battlefield/183.png",
+			"type": "image",
+			"name": "183_png"
+		},
+		{
+			"url": "assets/Battlefield/184.png",
+			"type": "image",
+			"name": "184_png"
+		},
+		{
+			"url": "assets/Battlefield/185.png",
+			"type": "image",
+			"name": "185_png"
+		},
+		{
+			"url": "assets/Battlefield/186.png",
+			"type": "image",
+			"name": "186_png"
+		},
+		{
+			"url": "assets/Battlefield/187.png",
+			"type": "image",
+			"name": "187_png"
+		},
+		{
+			"url": "assets/Battlefield/188.png",
+			"type": "image",
+			"name": "188_png"
+		},
+		{
+			"url": "assets/Battlefield/189.png",
+			"type": "image",
+			"name": "189_png"
+		},
+		{
+			"url": "assets/Battlefield/19.png",
+			"type": "image",
+			"name": "19_png"
+		},
+		{
+			"url": "assets/Battlefield/190.png",
+			"type": "image",
+			"name": "190_png"
+		},
+		{
+			"url": "assets/Battlefield/191.png",
+			"type": "image",
+			"name": "191_png"
+		},
+		{
+			"url": "assets/Battlefield/192.png",
+			"type": "image",
+			"name": "192_png"
+		},
+		{
+			"url": "assets/Battlefield/193.png",
+			"type": "image",
+			"name": "193_png"
+		},
+		{
+			"url": "assets/Battlefield/194.png",
+			"type": "image",
+			"name": "194_png"
+		},
+		{
+			"url": "assets/Battlefield/195.png",
+			"type": "image",
+			"name": "195_png"
+		},
+		{
+			"url": "assets/Battlefield/196.png",
+			"type": "image",
+			"name": "196_png"
+		},
+		{
+			"url": "assets/Battlefield/197.png",
+			"type": "image",
+			"name": "197_png"
+		},
+		{
+			"url": "assets/Battlefield/198.png",
+			"type": "image",
+			"name": "198_png"
+		},
+		{
+			"url": "assets/Battlefield/199.png",
+			"type": "image",
+			"name": "199_png"
+		},
+		{
+			"url": "assets/Battlefield/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "assets/Battlefield/200.png",
+			"type": "image",
+			"name": "200_png"
+		},
+		{
+			"url": "assets/Battlefield/201.png",
+			"type": "image",
+			"name": "201_png"
+		},
+		{
+			"url": "assets/Battlefield/202.png",
+			"type": "image",
+			"name": "202_png"
+		},
+		{
+			"url": "assets/Battlefield/203.png",
+			"type": "image",
+			"name": "203_png"
+		},
+		{
+			"url": "assets/Battlefield/204.png",
+			"type": "image",
+			"name": "204_png"
+		},
+		{
+			"url": "assets/Battlefield/205.png",
+			"type": "image",
+			"name": "205_png"
+		},
+		{
+			"url": "assets/Battlefield/206.png",
+			"type": "image",
+			"name": "206_png"
+		},
+		{
+			"url": "assets/Battlefield/207.png",
+			"type": "image",
+			"name": "207_png"
+		},
+		{
+			"url": "assets/Battlefield/208.png",
+			"type": "image",
+			"name": "208_png"
+		},
+		{
+			"url": "assets/Battlefield/209.png",
+			"type": "image",
+			"name": "209_png"
+		},
+		{
+			"url": "assets/Battlefield/210.png",
+			"type": "image",
+			"name": "210_png"
+		},
+		{
+			"url": "assets/Battlefield/211.png",
+			"type": "image",
+			"name": "211_png"
+		},
+		{
+			"url": "assets/Battlefield/212.png",
+			"type": "image",
+			"name": "212_png"
+		},
+		{
+			"url": "assets/Battlefield/213.png",
+			"type": "image",
+			"name": "213_png"
+		},
+		{
+			"url": "assets/Battlefield/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "assets/Battlefield/31.png",
+			"type": "image",
+			"name": "31_png"
+		},
+		{
+			"url": "assets/Battlefield/32.png",
+			"type": "image",
+			"name": "32_png"
+		},
+		{
+			"url": "assets/Battlefield/33.png",
+			"type": "image",
+			"name": "33_png"
+		},
+		{
+			"url": "assets/Battlefield/34.png",
+			"type": "image",
+			"name": "34_png"
+		},
+		{
+			"url": "assets/Battlefield/35.png",
+			"type": "image",
+			"name": "35_png"
+		},
+		{
+			"url": "assets/Battlefield/36.png",
+			"type": "image",
+			"name": "36_png"
+		},
+		{
+			"url": "assets/Battlefield/37.png",
+			"type": "image",
+			"name": "37_png"
+		},
+		{
+			"url": "assets/Battlefield/38.png",
+			"type": "image",
+			"name": "38_png"
+		},
+		{
+			"url": "assets/Battlefield/39.png",
+			"type": "image",
+			"name": "39_png"
+		},
+		{
+			"url": "assets/Battlefield/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "assets/Battlefield/40.png",
+			"type": "image",
+			"name": "40_png"
+		},
+		{
+			"url": "assets/Battlefield/41.png",
+			"type": "image",
+			"name": "41_png"
+		},
+		{
+			"url": "assets/Battlefield/42.png",
+			"type": "image",
+			"name": "42_png"
+		},
+		{
+			"url": "assets/Battlefield/43.png",
+			"type": "image",
+			"name": "43_png"
+		},
+		{
+			"url": "assets/Battlefield/45.png",
+			"type": "image",
+			"name": "45_png"
+		},
+		{
+			"url": "assets/Battlefield/46.png",
+			"type": "image",
+			"name": "46_png"
+		},
+		{
+			"url": "assets/Battlefield/47.png",
+			"type": "image",
+			"name": "47_png"
+		},
+		{
+			"url": "assets/Battlefield/48.png",
+			"type": "image",
+			"name": "48_png"
+		},
+		{
+			"url": "assets/Battlefield/49.png",
+			"type": "image",
+			"name": "49_png"
+		},
+		{
+			"url": "assets/Battlefield/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "assets/Battlefield/50.png",
+			"type": "image",
+			"name": "50_png"
+		},
+		{
+			"url": "assets/Battlefield/51.png",
+			"type": "image",
+			"name": "51_png"
+		},
+		{
+			"url": "assets/Battlefield/52.png",
+			"type": "image",
+			"name": "52_png"
+		},
+		{
+			"url": "assets/Battlefield/53.png",
+			"type": "image",
+			"name": "53_png"
+		},
+		{
+			"url": "assets/Battlefield/54.png",
+			"type": "image",
+			"name": "54_png"
+		},
+		{
+			"url": "assets/Battlefield/55.png",
+			"type": "image",
+			"name": "55_png"
+		},
+		{
+			"url": "assets/Battlefield/56.png",
+			"type": "image",
+			"name": "56_png"
+		},
+		{
+			"url": "assets/Battlefield/57.png",
+			"type": "image",
+			"name": "57_png"
+		},
+		{
+			"url": "assets/Battlefield/58.png",
+			"type": "image",
+			"name": "58_png"
+		},
+		{
+			"url": "assets/Battlefield/59.png",
+			"type": "image",
+			"name": "59_png"
+		},
+		{
+			"url": "assets/Battlefield/6.png",
+			"type": "image",
+			"name": "6_png"
+		},
+		{
+			"url": "assets/Battlefield/60.png",
+			"type": "image",
+			"name": "60_png"
+		},
+		{
+			"url": "assets/Battlefield/61.png",
+			"type": "image",
+			"name": "61_png"
+		},
+		{
+			"url": "assets/Battlefield/62.png",
+			"type": "image",
+			"name": "62_png"
+		},
+		{
+			"url": "assets/Battlefield/63.png",
+			"type": "image",
+			"name": "63_png"
+		},
+		{
+			"url": "assets/Battlefield/7.png",
+			"type": "image",
+			"name": "7_png"
+		},
+		{
+			"url": "assets/Battlefield/76.png",
+			"type": "image",
+			"name": "76_png"
+		},
+		{
+			"url": "assets/Battlefield/77.png",
+			"type": "image",
+			"name": "77_png"
+		},
+		{
+			"url": "assets/Battlefield/78.png",
+			"type": "image",
+			"name": "78_png"
+		},
+		{
+			"url": "assets/Battlefield/79.png",
+			"type": "image",
+			"name": "79_png"
+		},
+		{
+			"url": "assets/Battlefield/8.png",
+			"type": "image",
+			"name": "8_png"
+		},
+		{
+			"url": "assets/Battlefield/80.png",
+			"type": "image",
+			"name": "80_png"
+		},
+		{
+			"url": "assets/Battlefield/81.png",
+			"type": "image",
+			"name": "81_png"
+		},
+		{
+			"url": "assets/Battlefield/82.png",
+			"type": "image",
+			"name": "82_png"
+		},
+		{
+			"url": "assets/Battlefield/83.png",
+			"type": "image",
+			"name": "83_png"
+		},
+		{
+			"url": "assets/Battlefield/84.png",
+			"type": "image",
+			"name": "84_png"
+		},
+		{
+			"url": "assets/Battlefield/85.png",
+			"type": "image",
+			"name": "85_png"
+		},
+		{
+			"url": "assets/Battlefield/86.png",
+			"type": "image",
+			"name": "86_png"
+		},
+		{
+			"url": "assets/Battlefield/87.png",
+			"type": "image",
+			"name": "87_png"
+		},
+		{
+			"url": "assets/Battlefield/88.png",
+			"type": "image",
+			"name": "88_png"
+		},
+		{
+			"url": "assets/Battlefield/89.png",
+			"type": "image",
+			"name": "89_png"
+		},
+		{
+			"url": "assets/Battlefield/9.png",
+			"type": "image",
+			"name": "9_png"
+		},
+		{
+			"url": "assets/Battlefield/90.png",
+			"type": "image",
+			"name": "90_png"
+		},
+		{
+			"url": "assets/Battlefield/91.png",
+			"type": "image",
+			"name": "91_png"
+		},
+		{
+			"url": "assets/Battlefield/92.png",
+			"type": "image",
+			"name": "92_png"
+		},
+		{
+			"url": "assets/Battlefield/93.png",
+			"type": "image",
+			"name": "93_png"
+		},
+		{
+			"url": "assets/Battlefield/94.png",
+			"type": "image",
+			"name": "94_png"
+		},
+		{
+			"url": "assets/Battlefield/95.png",
+			"type": "image",
+			"name": "95_png"
+		},
+		{
+			"url": "assets/Battlefield/96.png",
+			"type": "image",
+			"name": "96_png"
+		},
+		{
+			"url": "assets/Battlefield/97.png",
+			"type": "image",
+			"name": "97_png"
+		},
+		{
+			"url": "assets/Battlefield/98.png",
+			"type": "image",
+			"name": "98_png"
+		},
+		{
+			"url": "assets/Battlefield/99.png",
+			"type": "image",
+			"name": "99_png"
+		},
+		{
+			"url": "assets/Battlefield/界面.jpg",
+			"type": "image",
+			"name": "界面_jpg"
+		},
+		{
+			"url": "assets/Skin/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Skin/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/Skin/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/Skin/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/Skin/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/Skin/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/Skin/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Skin/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/Skin/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/Skin/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/Skin/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/Skin/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/Skin/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/Skin/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Skin/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/Skin/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Skin/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/Skin/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Skin/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Skin/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/Skin/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/Skin/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/Skin/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "Font/GoldNum.fnt",
+			"type": "font",
+			"name": "GoldNum_fnt"
+		},
+		{
+			"url": "Font/GoldNum.png",
+			"type": "image",
+			"name": "GoldNum_png"
+		},
+		{
+			"url": "Font/Num.fnt",
+			"type": "font",
+			"name": "Num_fnt"
+		},
+		{
+			"url": "Font/Num.png",
+			"type": "image",
+			"name": "Num_png"
+		},
+		{
+			"name": "SFX_Button_Clicked_wav",
+			"type": "sound",
+			"url": "Sound/UI/SFX_Button_Clicked.wav"
+		},
+		{
+			"name": "BGM_Main_wav",
+			"type": "sound",
+			"url": "Sound/BGM/BGM_Main.wav"
+		},
+		{
+			"name": "BGM_Battlefield_wav",
+			"type": "sound",
+			"url": "Sound/BGM/BGM_Battlefield.wav"
+		}
+	]
+}

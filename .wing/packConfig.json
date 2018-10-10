@@ -1,0 +1,10 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "c:\\work\\DayDayUp\\Egret\\DayDayUp\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "Battlefield": true
+    }
+}

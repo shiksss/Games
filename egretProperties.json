@@ -1,0 +1,30 @@
+{
+  "engineVersion": "5.2.10",
+  "compilerVersion": "5.2.10",
+  "template": {},
+  "target": {
+    "_current": "bricks",
+    "current": "wxgame",
+    "__current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "tween"
+    }
+  ]
+}
