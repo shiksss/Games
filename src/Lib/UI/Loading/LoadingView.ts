@@ -6,7 +6,7 @@ module Lib {
         private resGroupIndex: number = 0;
 
         public constructor(isFull: boolean = true, skinName: string = null, onAddUIEvents: () => void = null) {
-            super(isFull, "", skinName != null && skinName.length > 0 ? skinName : "LoadingView", onAddUIEvents);
+            super(isFull, null, skinName != null && skinName.length > 0 ? skinName : "LoadingView", onAddUIEvents);
         }
 
         public onProgress(current: number, total: number): void {

@@ -16,7 +16,7 @@ module Lib {
 				skinName = moduleName + "/" + skinName;
 			}
 
-			this.skinName = "resource/Skin/UI/" + skinName + "Skin.exml";
+			this.skinName = "resource/Skin/" + skinName + "Skin.exml";
 
 			this.onAddUIEvents = onAddUIEvents;
 

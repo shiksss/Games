@@ -51,7 +51,7 @@ var Lib;
             if (isFull === void 0) { isFull = true; }
             if (skinName === void 0) { skinName = null; }
             if (onAddUIEvents === void 0) { onAddUIEvents = null; }
-            var _this = _super.call(this, isFull, "", skinName != null && skinName.length > 0 ? skinName : "LoadingView", onAddUIEvents) || this;
+            var _this = _super.call(this, isFull, null, skinName != null && skinName.length > 0 ? skinName : "LoadingView", onAddUIEvents) || this;
             _this.resGroupCount = 0;
             _this.resGroupIndex = 0;
             return _this;

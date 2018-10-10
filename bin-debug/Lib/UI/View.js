@@ -18,7 +18,7 @@ var Lib;
             if (moduleName != null && moduleName.length > 0) {
                 skinName = moduleName + "/" + skinName;
             }
-            _this.skinName = "resource/Skin/UI/" + skinName + "Skin.exml";
+            _this.skinName = "resource/Skin/" + skinName + "Skin.exml";
             _this.onAddUIEvents = onAddUIEvents;
             _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.OnConfigComplete, _this);
             return _this;

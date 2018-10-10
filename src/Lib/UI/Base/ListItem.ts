@@ -8,7 +8,7 @@ module Lib {
 		public constructor() {
 			super();
 			
-			this.skinName = "resource/Skin/UI/" + this.ModuleName + "/" + this.ClassName + "Skin.exml";
+			this.skinName = "resource/Skin/" + this.ModuleName + "/" + this.ClassName + "Skin.exml";
 		}
 
 		protected dataChanged(): void {

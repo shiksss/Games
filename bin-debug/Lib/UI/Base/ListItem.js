@@ -14,7 +14,7 @@ var Lib;
         __extends(ListItem, _super);
         function ListItem() {
             var _this = _super.call(this) || this;
-            _this.skinName = "resource/Skin/UI/" + _this.ModuleName + "/" + _this.ClassName + "Skin.exml";
+            _this.skinName = "resource/Skin/" + _this.ModuleName + "/" + _this.ClassName + "Skin.exml";
             return _this;
         }
         ListItem.prototype.dataChanged = function () {

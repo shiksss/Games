@@ -13,7 +13,7 @@ module Lib {
 		button_Ok: eui.Button;
 
 		public constructor(skinName: string, onAddUIEvents: () => void, title: string, message: string, mode: MessageBoxModeEnum) {
-			super(true, "", skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents);
+			super(true, null, skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents);
 
 			this.label_Title.text = title;
 			this.label_Message.text = message;

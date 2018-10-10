@@ -19,7 +19,7 @@ var Lib;
     var MessageBox = (function (_super) {
         __extends(MessageBox, _super);
         function MessageBox(skinName, onAddUIEvents, title, message, mode) {
-            var _this = _super.call(this, true, "", skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents) || this;
+            var _this = _super.call(this, true, null, skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents) || this;
             _this.label_Title.text = title;
             _this.label_Message.text = message;
             _this.button_Yes.visible = false;

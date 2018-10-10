@@ -6,6 +6,12 @@ declare module skins{
 	class CheckBoxSkin extends eui.Skin{
 	}
 }
+declare class ListItem_TestSkin extends eui.Skin{
+}
+declare class RoomController_SoloSkin extends eui.Skin{
+}
+declare class SubScreenMainSkin extends eui.Skin{
+}
 declare module skins{
 	class HScrollBarSkin extends eui.Skin{
 	}
@@ -17,6 +23,14 @@ declare module skins{
 declare module skins{
 	class ItemRendererSkin extends eui.Skin{
 	}
+}
+declare class LoadingViewSkin extends eui.Skin{
+}
+declare module Match3{
+	class MainMenuSkin extends eui.Skin{
+	}
+}
+declare class MessageBoxSkin extends eui.Skin{
 }
 declare module skins{
 	class PanelSkin extends eui.Skin{
@@ -49,34 +63,6 @@ declare module skins{
 declare module skins{
 	class ToggleSwitchSkin extends eui.Skin{
 	}
-}
-declare module DayDayUp{
-	class ListItem_TestSkin extends eui.Skin{
-	}
-}
-declare module DayDayUp{
-	class RoomController_SoloSkin extends eui.Skin{
-	}
-}
-declare module DayDayUp{
-	class SubScreenMainSkin extends eui.Skin{
-	}
-}
-declare module KHDXS{
-	class ListItem_TestSkin extends eui.Skin{
-	}
-}
-declare module KHDXS{
-	class SubScreenMainSkin extends eui.Skin{
-	}
-}
-declare class LoadingViewSkin extends eui.Skin{
-}
-declare module Match3{
-	class MainMenuSkin extends eui.Skin{
-	}
-}
-declare class MessageBoxSkin extends eui.Skin{
 }
 declare module skins{
 	class VScrollBarSkin extends eui.Skin{
