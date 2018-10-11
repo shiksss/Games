@@ -12,7 +12,8 @@ var Lib;
 (function (Lib) {
     var View = (function (_super) {
         __extends(View, _super);
-        function View(isFull, moduleName, skinName, onAddUIEvents) {
+        function View(isFull, moduleName, skinName, onAddUIEvents, updatable) {
+            if (updatable === void 0) { updatable = false; }
             var _this = _super.call(this) || this;
             _this.isFull = isFull;
             if (moduleName != null && moduleName.length > 0) {
@@ -20,6 +21,7 @@ var Lib;
             }
             _this.skinName = "resource/Skin/" + skinName + "Skin.exml";
             _this.onAddUIEvents = onAddUIEvents;
+            _this.updatable = updatable;
             _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.OnConfigComplete, _this);
             return _this;
         }
@@ -30,6 +32,12 @@ var Lib;
         });
         View.prototype.OnAddUIEvents = function () { if (this.onAddUIEvents != null)
             this.onAddUIEvents(); };
+        View.prototype.Release = function () {
+            this.removeEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
+            if (this.updatable) {
+                this.removeEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+            }
+        };
         View.prototype.OnConfigComplete = function (event) {
             this.removeEventListener(egret.Event.ADDED_TO_STAGE, this.OnConfigComplete, this);
             if (this.isFull) {
@@ -42,6 +50,10 @@ var Lib;
                 this.scaleX = this.LogicScale;
                 this.scaleY = this.LogicScale;
             }
+            if (this.updatable) {
+                this.addEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+            }
+            this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
         };
         View.prototype.createChildren = function () {
             _super.prototype.createChildren.call(this);
@@ -49,6 +61,8 @@ var Lib;
         };
         View.prototype.Close = function () {
             Lib.ViewManager.Close(this);
+        };
+        View.prototype.Update = function () {
         };
         return View;
     }(eui.Component));

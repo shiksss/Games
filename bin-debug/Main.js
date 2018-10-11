@@ -15,7 +15,7 @@ var Main = (function (_super) {
     }
     Main.prototype.OnInited = function () {
         _super.prototype.OnInited.call(this);
-        this.ChangeTo(new KHDXS.SubScreenMain());
+        this.ChangeTo(new DayDayUp.SubScreenMain());
     };
     return Main;
 }(Lib.ViewManager));

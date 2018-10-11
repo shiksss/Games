@@ -64,7 +64,7 @@ var DayDayUp;
         };
         SubScreenMain.prototype.OnButtonClicked_Start = function () {
             var _this = this;
-            Lib.MessageBox.ShowYesNo(null, "测试", "开始游戏", function () {
+            Lib.MessageBox.ShowYesNo(null, "测试", "开始游戏kjkbbbhhbbbhHBHBBJHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKJHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对KJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对客观看待更健康", function () {
                 _this.owner.ChangeTo(new DayDayUp.SubScreenBattlefield_Solo());
                 DayDayUp.LocalSetting.Instance.PlayCount++;
             });

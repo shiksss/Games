@@ -19,14 +19,32 @@ var Lib;
     var MessageBox = (function (_super) {
         __extends(MessageBox, _super);
         function MessageBox(skinName, onAddUIEvents, title, message, mode) {
-            var _this = _super.call(this, true, null, skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents) || this;
+            var _this = _super.call(this, true, null, skinName != null && skinName.length > 0 ? skinName : "MessageBox", onAddUIEvents, false) || this;
             _this.label_Title.text = title;
             _this.label_Message.text = message;
             _this.button_Yes.visible = false;
+            _this.button_Yes.includeInLayout = false;
             _this.button_No.visible = false;
+            _this.button_No.includeInLayout = false;
             _this.button_Ok.visible = false;
+            _this.button_Ok.includeInLayout = false;
+            var layout = new eui.HorizontalLayout();
+            layout.gap = 80;
+            layout.verticalAlign = egret.VerticalAlign.MIDDLE;
+            layout.horizontalAlign = egret.HorizontalAlign.CENTER;
+            _this.grooup_buttons.layout = layout;
+            _this.alpha = 0;
             return _this;
         }
+        MessageBox.prototype.createChildren = function () {
+            _super.prototype.createChildren.call(this);
+            if (this.label_Message.textHeight > this.label_Message.height) {
+                this.content.height += this.label_Message.textHeight - this.label_Message.height;
+                this.label_Message.height = this.label_Message.textHeight;
+            }
+            new Lib.DoTween(this).AlphaTo(1, 0.2);
+            new Lib.DoTween(this.content).Jelly();
+        };
         MessageBox.ShowYesNo = function (skinName, title, message, onYes, onNo, yesText, noText) {
             if (onNo === void 0) { onNo = null; }
             if (yesText === void 0) { yesText = null; }
@@ -46,7 +64,9 @@ var Lib;
                 }, messageBox.button_No);
             }, title, message, MessageBoxModeEnum.YesNo);
             messageBox.button_Yes.visible = true;
+            messageBox.button_Yes.includeInLayout = true;
             messageBox.button_No.visible = true;
+            messageBox.button_No.includeInLayout = true;
             if (yesText != null) {
                 messageBox.button_Yes.label = yesText;
             }
@@ -68,6 +88,7 @@ var Lib;
                 }, messageBox.button_Ok);
             }, title, message, MessageBoxModeEnum.OK);
             messageBox.button_Ok.visible = true;
+            messageBox.button_Ok.includeInLayout = true;
             if (okText != null) {
                 messageBox.button_Ok.label = okText;
             }

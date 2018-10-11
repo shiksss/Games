@@ -7,9 +7,11 @@ module Lib {
 		onAddUIEvents: () => void;
 		private OnAddUIEvents(): void { if (this.onAddUIEvents != null) this.onAddUIEvents(); }
 
-		public constructor(isFull: boolean, moduleName: string, skinName: string, onAddUIEvents: () => void) {
+		private updatable: boolean;
+
+		public constructor(isFull: boolean, moduleName: string, skinName: string, onAddUIEvents: () => void, updatable: boolean = false) {
 			super();
-			
+
 			this.isFull = isFull;
 
 			if (moduleName != null && moduleName.length > 0) {
@@ -20,7 +22,17 @@ module Lib {
 
 			this.onAddUIEvents = onAddUIEvents;
 
+			this.updatable = updatable;
+
 			this.addEventListener(egret.Event.ADDED_TO_STAGE, this.OnConfigComplete, this);
+		}
+
+		protected Release(): void {
+			this.removeEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
+
+			if (this.updatable) {
+				this.removeEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+			}
 		}
 
 		protected OnConfigComplete(event: RES.ResourceEvent): void {
@@ -36,6 +48,12 @@ module Lib {
 				this.scaleX = this.LogicScale;
 				this.scaleY = this.LogicScale;
 			}
+
+			if (this.updatable) {
+				this.addEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+			}
+
+			this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
 		}
 
 		protected createChildren(): void {
@@ -44,8 +62,11 @@ module Lib {
 			this.OnAddUIEvents();
 		}
 
-		Close(): void {
+		public Close(): void {
 			ViewManager.Close(this);
+		}
+
+		protected Update(): void {
 		}
 	}
 }

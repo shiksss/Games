@@ -9,24 +9,24 @@ module Lib {
 
 		public get Inited(): boolean { return this._inited; }
 
-		private enabled: boolean;
+		private updatable: boolean;
 
 		get ParentGameObject(): GameObject { return this.parent as GameObject; }
 
 		components: GameObjectComponentManager = null;
 
-		static New(pool: ObjectPool, enabled: boolean = true): GameObject {
+		static New(pool: ObjectPool, updatable: boolean = true): GameObject {
 			let newOne: GameObject = pool == null ? new GameObject() : <GameObject>pool.Get(GameObject.ClassName, () => { return new GameObject(); });
 
-			newOne.Init(enabled);
+			newOne.Init(updatable);
 
 			return newOne;
 		}
 
-		protected Init(enabled: boolean = true): void {
+		protected Init(updatable: boolean = true): void {
 			this._inited = false;
 
-			this.enabled = enabled;
+			this.updatable = updatable;
 
 			this.components = GameObjectComponentManager.New(this.pool, this);
 
@@ -36,7 +36,11 @@ module Lib {
 		Release(): void {
 			this.removeEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
 
-			this.enabled = false;
+			if (this.updatable) {
+				this.removeEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+			}
+
+			this.updatable = false;
 
 			if (this.components != null) {
 				this.components.Release();
@@ -57,15 +61,15 @@ module Lib {
 		private OnConfigComplete(event: RES.ResourceEvent): void {
 			this.removeEventListener(egret.Event.ADDED_TO_STAGE, this.OnConfigComplete, this);
 
-			this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
-
 			this._inited = true;
 
 			this.Ready();
 
-			if (this.enabled) {
+			if (this.updatable) {
 				this.addEventListener(egret.Event.ENTER_FRAME, this.Update, this);
 			}
+
+			this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
 		}
 
 		RemoveSelf(): void {

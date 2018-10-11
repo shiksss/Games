@@ -55,13 +55,13 @@ module DayDayUp {
 		}
 
 		private OnButtonClicked_Start(): void {
-			Lib.MessageBox.ShowYesNo(null, "测试", "开始游戏", () => {
+			Lib.MessageBox.ShowYesNo(null, "测试", "开始游戏kjkbbbhhbbbhHBHBBJHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKJHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对KJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对JHKJKJKJKJJKKJHKJHKJJKJKKJKjJKNJKJKb	kjkjbJKBKJBKJ	KJKJKJKJKJ K  kkjkjkjnk 经典款绝对客观看待更健康", () => {
 				this.owner.ChangeTo(new SubScreenBattlefield_Solo());
 				LocalSetting.Instance.PlayCount++;
 			});
 		}
 
-		private OnButtonClicked_Start0(): void {
+		private OnButtonClicked_Start_First(): void {
 			if (SubScreenBattlefield_Solo_PlayRecord.lastRecord == null) {
 				this.owner.ChangeTo(new SubScreenBattlefield_Solo());
 			} else {

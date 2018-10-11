@@ -28,22 +28,25 @@ var Lib;
             enumerable: true,
             configurable: true
         });
-        GameObject.New = function (pool, enabled) {
-            if (enabled === void 0) { enabled = true; }
+        GameObject.New = function (pool, updatable) {
+            if (updatable === void 0) { updatable = true; }
             var newOne = pool == null ? new GameObject() : pool.Get(GameObject.ClassName, function () { return new GameObject(); });
-            newOne.Init(enabled);
+            newOne.Init(updatable);
             return newOne;
         };
-        GameObject.prototype.Init = function (enabled) {
-            if (enabled === void 0) { enabled = true; }
+        GameObject.prototype.Init = function (updatable) {
+            if (updatable === void 0) { updatable = true; }
             this._inited = false;
-            this.enabled = enabled;
+            this.updatable = updatable;
             this.components = Lib.GameObjectComponentManager.New(this.pool, this);
             this.addEventListener(egret.Event.ADDED_TO_STAGE, this.OnConfigComplete, this);
         };
         GameObject.prototype.Release = function () {
             this.removeEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
-            this.enabled = false;
+            if (this.updatable) {
+                this.removeEventListener(egret.Event.ENTER_FRAME, this.Update, this);
+            }
+            this.updatable = false;
             if (this.components != null) {
                 this.components.Release();
                 this.components = null;
@@ -58,12 +61,12 @@ var Lib;
         };
         GameObject.prototype.OnConfigComplete = function (event) {
             this.removeEventListener(egret.Event.ADDED_TO_STAGE, this.OnConfigComplete, this);
-            this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
             this._inited = true;
             this.Ready();
-            if (this.enabled) {
+            if (this.updatable) {
                 this.addEventListener(egret.Event.ENTER_FRAME, this.Update, this);
             }
+            this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Release, this);
         };
         GameObject.prototype.RemoveSelf = function () {
             if (this.parent != null) {
